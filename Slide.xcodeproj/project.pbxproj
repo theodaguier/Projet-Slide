@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391A8701290ACC2F00B28564 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A8700290ACC2F00B28564 /* ViewRouter.swift */; };
+		3977EAD829101B9B00EABD90 /* CreatorLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977EAD729101B9B00EABD90 /* CreatorLibraryView.swift */; };
+		3977EADA29101BCC00EABD90 /* CreatorUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3977EAD929101BCC00EABD90 /* CreatorUploadView.swift */; };
+		397C35AA2909C6A40068B43C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C35A92909C6A40068B43C /* RootView.swift */; };
+		397C35AF2909CABA0068B43C /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C35AE2909CABA0068B43C /* CustomTabView.swift */; };
+		39836B032909386D003EF3B0 /* SlideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39836B022909386D003EF3B0 /* SlideApp.swift */; };
+		39836B052909386D003EF3B0 /* ArtistProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39836B042909386D003EF3B0 /* ArtistProfile.swift */; };
+		39836B072909386F003EF3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39836B062909386F003EF3B0 /* Assets.xcassets */; };
+		39836B0A2909386F003EF3B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39836B092909386F003EF3B0 /* Preview Assets.xcassets */; };
+		39CCD137290BFB2500FE479F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD136290BFB2500FE479F /* ProfileView.swift */; };
+		39CCD139290BFBE100FE479F /* SwipFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD138290BFBE100FE479F /* SwipFeedView.swift */; };
+		39CCD143290C00FF00FE479F /* HeartComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD142290C00FF00FE479F /* HeartComponent.swift */; };
+		39CCD145290C011E00FE479F /* SpeakerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD144290C011E00FE479F /* SpeakerComponent.swift */; };
+		39CCD147290C014800FE479F /* BigPlayComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD146290C014800FE479F /* BigPlayComponent.swift */; };
+		39CCD14A290C07AD00FE479F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD149290C07AD00FE479F /* FeedView.swift */; };
+		39CCD14C290C1AC700FE479F /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD14B290C1AC700FE479F /* SplashScreenView.swift */; };
+		39CCD14E290C1DFD00FE479F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD14D290C1DFD00FE479F /* PlayerView.swift */; };
+		39CCD150290C21C600FE479F /* SearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD14F290C21C600FE479F /* SearchTabView.swift */; };
+		39CCD152290C21E500FE479F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CCD151290C21E500FE479F /* SearchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39836B102909386F003EF3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39836AF72909386D003EF3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39836AFE2909386D003EF3B0;
+			remoteInfo = Slide;
+		};
+		39836B1A2909386F003EF3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39836AF72909386D003EF3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39836AFE2909386D003EF3B0;
+			remoteInfo = Slide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391A8700290ACC2F00B28564 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		3977EAD729101B9B00EABD90 /* CreatorLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorLibraryView.swift; sourceTree = "<group>"; };
+		3977EAD929101BCC00EABD90 /* CreatorUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorUploadView.swift; sourceTree = "<group>"; };
+		397C35A92909C6A40068B43C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		397C35AE2909CABA0068B43C /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		39836AFF2909386D003EF3B0 /* Slide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39836B022909386D003EF3B0 /* SlideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideApp.swift; sourceTree = "<group>"; };
+		39836B042909386D003EF3B0 /* ArtistProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistProfile.swift; sourceTree = "<group>"; };
+		39836B062909386F003EF3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39836B092909386F003EF3B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39836B0F2909386F003EF3B0 /* SlideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39836B192909386F003EF3B0 /* SlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39836B3529097266003EF3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39836B362909729F003EF3B0 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Light.otf"; path = "../../../../Downloads/Gilroy-Font/Gilroy-Light.otf"; sourceTree = "<group>"; };
+		39CCD136290BFB2500FE479F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		39CCD138290BFBE100FE479F /* SwipFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipFeedView.swift; sourceTree = "<group>"; };
+		39CCD142290C00FF00FE479F /* HeartComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartComponent.swift; sourceTree = "<group>"; };
+		39CCD144290C011E00FE479F /* SpeakerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerComponent.swift; sourceTree = "<group>"; };
+		39CCD146290C014800FE479F /* BigPlayComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPlayComponent.swift; sourceTree = "<group>"; };
+		39CCD149290C07AD00FE479F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		39CCD14B290C1AC700FE479F /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		39CCD14D290C1DFD00FE479F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		39CCD14F290C21C600FE479F /* SearchTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabView.swift; sourceTree = "<group>"; };
+		39CCD151290C21E500FE479F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39836AFC2909386D003EF3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39836B0C2909386F003EF3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39836B162909386F003EF3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3977EADB29101BE100EABD90 /* Creator Library */ = {
+			isa = PBXGroup;
+			children = (
+				3977EAD729101B9B00EABD90 /* CreatorLibraryView.swift */,
+				3977EAD929101BCC00EABD90 /* CreatorUploadView.swift */,
+			);
+			path = "Creator Library";
+			sourceTree = "<group>";
+		};
+		3977EADC29101BF200EABD90 /* Artist Profile */ = {
+			isa = PBXGroup;
+			children = (
+				39836B042909386D003EF3B0 /* ArtistProfile.swift */,
+			);
+			path = "Artist Profile";
+			sourceTree = "<group>";
+		};
+		3977EADD29101BFE00EABD90 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				39CCD136290BFB2500FE479F /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3977EADE29101C0B00EABD90 /* Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				39CCD14D290C1DFD00FE479F /* PlayerView.swift */,
+			);
+			path = "Music Player";
+			sourceTree = "<group>";
+		};
+		3977EADF29101C1A00EABD90 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				39CCD14B290C1AC700FE479F /* SplashScreenView.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		397C35AB2909C6C70068B43C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				397C35AE2909CABA0068B43C /* CustomTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		397C35AD2909C6E30068B43C /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3977EADC29101BF200EABD90 /* Artist Profile */,
+				3977EADB29101BE100EABD90 /* Creator Library */,
+				39CCD153290C220200FE479F /* SearchPage */,
+				39CCD13A290C006600FE479F /* Swipe Feed */,
+				3977EADD29101BFE00EABD90 /* Profile */,
+				3977EADE29101C0B00EABD90 /* Music Player */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		39836AF62909386D003EF3B0 = {
+			isa = PBXGroup;
+			children = (
+				39836B012909386D003EF3B0 /* Slide */,
+				39836B002909386D003EF3B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39836B002909386D003EF3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39836AFF2909386D003EF3B0 /* Slide.app */,
+				39836B0F2909386F003EF3B0 /* SlideTests.xctest */,
+				39836B192909386F003EF3B0 /* SlideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39836B012909386D003EF3B0 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				39836B3529097266003EF3B0 /* Info.plist */,
+				397C35AB2909C6C70068B43C /* TabBar */,
+				3977EADF29101C1A00EABD90 /* Splash Screen */,
+				39836B3429097161003EF3B0 /* Fonts */,
+				397C35AD2909C6E30068B43C /* Pages */,
+				397C35A92909C6A40068B43C /* RootView.swift */,
+				39836B022909386D003EF3B0 /* SlideApp.swift */,
+				391A8700290ACC2F00B28564 /* ViewRouter.swift */,
+				39836B062909386F003EF3B0 /* Assets.xcassets */,
+				39836B082909386F003EF3B0 /* Preview Content */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		39836B082909386F003EF3B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39836B092909386F003EF3B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39836B3429097161003EF3B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39836B362909729F003EF3B0 /* Gilroy-Light.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		39CCD13A290C006600FE479F /* Swipe Feed */ = {
+			isa = PBXGroup;
+			children = (
+				39CCD138290BFBE100FE479F /* SwipFeedView.swift */,
+				39CCD149290C07AD00FE479F /* FeedView.swift */,
+				39CCD148290C016100FE479F /* Components */,
+			);
+			path = "Swipe Feed";
+			sourceTree = "<group>";
+		};
+		39CCD148290C016100FE479F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				39CCD144290C011E00FE479F /* SpeakerComponent.swift */,
+				39CCD146290C014800FE479F /* BigPlayComponent.swift */,
+				39CCD142290C00FF00FE479F /* HeartComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		39CCD153290C220200FE479F /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				39CCD14F290C21C600FE479F /* SearchTabView.swift */,
+				39CCD151290C21E500FE479F /* SearchView.swift */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39836AFE2909386D003EF3B0 /* Slide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39836B232909386F003EF3B0 /* Build configuration list for PBXNativeTarget "Slide" */;
+			buildPhases = (
+				39836AFB2909386D003EF3B0 /* Sources */,
+				39836AFC2909386D003EF3B0 /* Frameworks */,
+				39836AFD2909386D003EF3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slide;
+			productName = Slide;
+			productReference = 39836AFF2909386D003EF3B0 /* Slide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39836B0E2909386F003EF3B0 /* SlideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39836B262909386F003EF3B0 /* Build configuration list for PBXNativeTarget "SlideTests" */;
+			buildPhases = (
+				39836B0B2909386F003EF3B0 /* Sources */,
+				39836B0C2909386F003EF3B0 /* Frameworks */,
+				39836B0D2909386F003EF3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39836B112909386F003EF3B0 /* PBXTargetDependency */,
+			);
+			name = SlideTests;
+			productName = SlideTests;
+			productReference = 39836B0F2909386F003EF3B0 /* SlideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39836B182909386F003EF3B0 /* SlideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39836B292909386F003EF3B0 /* Build configuration list for PBXNativeTarget "SlideUITests" */;
+			buildPhases = (
+				39836B152909386F003EF3B0 /* Sources */,
+				39836B162909386F003EF3B0 /* Frameworks */,
+				39836B172909386F003EF3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39836B1B2909386F003EF3B0 /* PBXTargetDependency */,
+			);
+			name = SlideUITests;
+			productName = SlideUITests;
+			productReference = 39836B192909386F003EF3B0 /* SlideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39836AF72909386D003EF3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					39836AFE2909386D003EF3B0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					39836B0E2909386F003EF3B0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 39836AFE2909386D003EF3B0;
+					};
+					39836B182909386F003EF3B0 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 39836AFE2909386D003EF3B0;
+					};
+				};
+			};
+			buildConfigurationList = 39836AFA2909386D003EF3B0 /* Build configuration list for PBXProject "Slide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39836AF62909386D003EF3B0;
+			productRefGroup = 39836B002909386D003EF3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39836AFE2909386D003EF3B0 /* Slide */,
+				39836B0E2909386F003EF3B0 /* SlideTests */,
+				39836B182909386F003EF3B0 /* SlideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39836AFD2909386D003EF3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39836B0A2909386F003EF3B0 /* Preview Assets.xcassets in Resources */,
+				39836B072909386F003EF3B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39836B0D2909386F003EF3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39836B172909386F003EF3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39836AFB2909386D003EF3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A8701290ACC2F00B28564 /* ViewRouter.swift in Sources */,
+				39CCD14C290C1AC700FE479F /* SplashScreenView.swift in Sources */,
+				397C35AA2909C6A40068B43C /* RootView.swift in Sources */,
+				3977EAD829101B9B00EABD90 /* CreatorLibraryView.swift in Sources */,
+				39CCD147290C014800FE479F /* BigPlayComponent.swift in Sources */,
+				39836B052909386D003EF3B0 /* ArtistProfile.swift in Sources */,
+				39836B032909386D003EF3B0 /* SlideApp.swift in Sources */,
+				39CCD145290C011E00FE479F /* SpeakerComponent.swift in Sources */,
+				39CCD137290BFB2500FE479F /* ProfileView.swift in Sources */,
+				39CCD14E290C1DFD00FE479F /* PlayerView.swift in Sources */,
+				39CCD14A290C07AD00FE479F /* FeedView.swift in Sources */,
+				39CCD150290C21C600FE479F /* SearchTabView.swift in Sources */,
+				3977EADA29101BCC00EABD90 /* CreatorUploadView.swift in Sources */,
+				39CCD152290C21E500FE479F /* SearchView.swift in Sources */,
+				397C35AF2909CABA0068B43C /* CustomTabView.swift in Sources */,
+				39CCD143290C00FF00FE479F /* HeartComponent.swift in Sources */,
+				39CCD139290BFBE100FE479F /* SwipFeedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39836B0B2909386F003EF3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39836B152909386F003EF3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39836B112909386F003EF3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39836AFE2909386D003EF3B0 /* Slide */;
+			targetProxy = 39836B102909386F003EF3B0 /* PBXContainerItemProxy */;
+		};
+		39836B1B2909386F003EF3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39836AFE2909386D003EF3B0 /* Slide */;
+			targetProxy = 39836B1A2909386F003EF3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39836B212909386F003EF3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39836B222909386F003EF3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39836B242909386F003EF3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N9958M954;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Slide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.Slide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39836B252909386F003EF3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slide/Preview Content\"";
+				DEVELOPMENT_TEAM = 3N9958M954;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Slide/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.Slide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39836B272909386F003EF3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.SlideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slide";
+			};
+			name = Debug;
+		};
+		39836B282909386F003EF3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.SlideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slide";
+			};
+			name = Release;
+		};
+		39836B2A2909386F003EF3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.SlideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slide;
+			};
+			name = Debug;
+		};
+		39836B2B2909386F003EF3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N9958M954;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodaguier.SlideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Slide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39836AFA2909386D003EF3B0 /* Build configuration list for PBXProject "Slide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39836B212909386F003EF3B0 /* Debug */,
+				39836B222909386F003EF3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39836B232909386F003EF3B0 /* Build configuration list for PBXNativeTarget "Slide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39836B242909386F003EF3B0 /* Debug */,
+				39836B252909386F003EF3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39836B262909386F003EF3B0 /* Build configuration list for PBXNativeTarget "SlideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39836B272909386F003EF3B0 /* Debug */,
+				39836B282909386F003EF3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39836B292909386F003EF3B0 /* Build configuration list for PBXNativeTarget "SlideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39836B2A2909386F003EF3B0 /* Debug */,
+				39836B2B2909386F003EF3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39836AF72909386D003EF3B0 /* Project object */;
+}
